@@ -27,7 +27,7 @@ dynamodb_client: DynamoDBClient = dynamodb.meta.client
 
 def check_institution(user_id: str, institution_id: str) -> bool:
     """
-    Check whether a given user has already linked to a specific institution ID
+    Check whether a given user has already -linked to a specific institution ID
     """
     params = {
         "Key": {
